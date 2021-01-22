@@ -1,1 +1,78 @@
 # Defect-Detection
+# Awesome Defect Detection
+
+If you have any problems, suggestions or improvements, please submit the issue or PR.
+
+## Contents
+* [Misc](#misc)
+* [Datasets](#datasets)
+* [Papers](#papers)
+* [Leaderboard](#leaderboard)
+
+## Misc
+
+### Challenge
+- 异常检测（anomaly/ outlier detection）领域还有那些值得研究的问题？[[Link](https://mp.weixin.qq.com/s/9LARhkDabD5kLwqFf8GBdA)]
+
+### Code
+
+### Technical blog
+
+- [Chinese Blog] 基于深度学习的缺陷检测算法汇总 [[Link](https://mp.weixin.qq.com/s/0yIetPltdvFkCe4kwpGa2w)]
+- [Chinese Blog] 表面缺陷检测数据集汇总及其相关项目推荐 [[Link](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247498632&idx=2&sn=a39387b9c15794393eb6e2c9561616cf&chksm=ec1c1671db6b9f676670c815e540bc5fadc2d94ac05404d0dcfbca82f5f93bc09331fb61c95d&scene=21#wechat_redirect)]
+- [Chinese Blog] AI赋能视觉质检，AWS推动工业智能化发展 [[Link](https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247517822&idx=3&sn=f61b763c8a07e48cfade590d218bd16a&chksm=fbea3fb1cc9db6a79e52ff04978d30606ad13d8e10f191a349d09d2a8f628eea45c582c2513d&mpshare=1&scene=1&srcid=1022y3iRSltC5x4W8Jz4CiWF&sharer_sharetime=1603347194546&sharer_shareid=fd8c7684b39b2eac07b5e0c63bf1346a&key=b06d693918fd14f4b283dbcd926b7b269de3b24b1cdfa46dd2016e0fe663cd140aee796388fa776211ead2c1b93195c93e6594d5f7834d2570721ba06a8428bc5710f7dbea7baf3c2d751ae8d466bd163e23efc96b486bec498660c517b6cb5bcf48f9a7fe582d473c46a1014e57acae6daa9ef201c5ff3afac5ba77891b415f&ascene=1&uin=Mjg1Mzg0ODMzMA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=zh_CN&exportkey=AYlF1wxf5QUVRVQmjz63J1Y%3D&pass_ticket=qp6dW60bJ2CUrvoxYSHea6AaqaqDMG8%2FoEUMCswn%2FqEOUGhIdg1gpdhSK6LerXDw&wx_header=0)]
+- [Chinese Blog] 基于三维灰度矩阵的钢板缺陷图像识别算法 [[Link](https://mp.weixin.qq.com/s/EWK9r7p1MWHzELb02k1CUA)]
+- [Chinese Blog] 智能制造中的计算机视觉应用瓶颈问题 [[Link](https://mp.weixin.qq.com/s/ExvQuuJimZ-CKQz6P1jWjw)]
+- [Chinese Blog] 斩获道路损坏检测竞赛世界第三，滴滴AI视觉团队提出CFM算法 [[Link](https://mp.weixin.qq.com/s/GohNdr7vWxEl89ykZBwalw)]
+- [Chinese Blog] 基于机器视觉和深度学习的智能缺陷检测 [[Link](https://mp.weixin.qq.com/s/t_4jMqmXcrF3rEmQTbYEBA)]
+- [Chinese Blog] 缺陷检测算法汇总（传统 + 深度学习方式）|综述、源码 [[Link](https://bbs.cvmart.net/topics/3866)]
+- [Chinese Blog] 工业图像异常检测最新研究总结（2019-2020）[[Link](https://mp.weixin.qq.com/s/K-md8q7Ne-PidgrtLRJCRQ)]
+- [Chinese Blog] 一文梳理缺陷检测方法（2019-2020）[[Link](https://mp.weixin.qq.com/s/lpNSgrQOFtSeeSK7IIJBMQ)]
+
+
+### Tricks
+- [Chinese Blog] 深度学习训练tricks总结（均有实验支撑） [[Link](https://mp.weixin.qq.com/s?__biz=Mzg4ODA3OTcyNA==&mid=2247502051&idx=3&sn=761cc7b908f14bc64fc028db0e97274e&chksm=cf821ce0f8f595f60706a860e87b4169432fa91101875797cff772916cca47fb2002e00e292d&mpshare=1&scene=1&srcid=10224rDFCVIXmpVIB9Rz0WvV&sharer_sharetime=1603361600193&sharer_shareid=fd8c7684b39b2eac07b5e0c63bf1346a&key=98afdbf20ac9b6e8132e0838603e4323a86efc4bc50f877a881004c36b75d0448370a9483569cdeedc40a3eae7be56431cca20d5f3c11ae1833bc54cbf769e6bfa0e57737d6261032c9f9159ae0b0a1f4730d92103221e34cca6ee87cfbf713dbee1c22ac7e43bf10c7465375c7acba82ee2ac2f694c92d434916ac83fab97f6&ascene=1&uin=Mjg1Mzg0ODMzMA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=zh_CN&exportkey=AaoFLlmx7O6NSdJ2EYllnKA%3D&pass_ticket=Cz67wUTL3RpVi0NHLVPCJOM8DtIHGFNJZqgE5Tk%2FDHEDHwgbRWtMAfGco6cfR%2BOZ&wx_header=0)]
+- [Chinese Blog] 深度学习调参tricks总结 [[Link](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247510986&idx=1&sn=bce091af523416fe54d9d1b24fba94d3&chksm=ec1c4633db6bcf25721b1def549c324092180b17e5a0e509369af7f1d9793798633c3593f5fb&mpshare=1&scene=1&srcid=1022TwUZyqXynikueAXZS4om&sharer_sharetime=1603361629913&sharer_shareid=fd8c7684b39b2eac07b5e0c63bf1346a&key=98afdbf20ac9b6e87aae628597c8cd0f5253b5ab624b1569558cc44b37e2c3b23172411592aa8902e533dbfd149751629c64688e305971bcfbb4d2ef540e83f639de23c2faa34a0d9a7695bcfcb5d2865734c7db87f260d7f29b4d46bf3b87d2838c8c2c52828b9c1d879f3ce40c5ac66966c010928f5a3c8ee6794369171806&ascene=1&uin=Mjg1Mzg0ODMzMA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=zh_CN&exportkey=AZbS3PAhj53%2Bh67o0ifJEv4%3D&pass_ticket=Cz67wUTL3RpVi0NHLVPCJOM8DtIHGFNJZqgE5Tk%2FDHEDHwgbRWtMAfGco6cfR%2BOZ&wx_header=0)]
+- [Chinese Blog] 谷歌自动数据增强算法RandAugment，极大简化搜索空间，平衡成本与性能 [[Link](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA==&mid=2247510988&idx=1&sn=59df689486d7ae45700651d027d858cc&chksm=ec1c4635db6bcf2379f1723941537a303598644aaf54e11b7eb32f6cf4ce8b790d0585c24091&mpshare=1&scene=1&srcid=1017bmbKXmHu3V8KE5cmm0nF&sharer_sharetime=1602947045781&sharer_shareid=fd8c7684b39b2eac07b5e0c63bf1346a&key=b0e41fc55fd7ea00ce73783ebaba5e0a4be9e02dc406d950dc14b9886b502ec802e039e30b9913dd6e23243f0c5bc6e789e7caab9c8997a5d35303de4d2975ecdbfd72e48291b556e97c5209d3b1e0316a006b77ab73c75a877c3bfd7c45cdfaadbf70308e121c969d70d19eab5ea6f88f3af31fb04a44b31585b11a9e27952f&ascene=1&uin=Mjg1Mzg0ODMzMA%3D%3D&devicetype=Windows+10+x64&version=6300002f&lang=zh_CN&exportkey=AWJGUUCV7ePJFpA89qhSBs8%3D&pass_ticket=Cz67wUTL3RpVi0NHLVPCJOM8DtIHGFNJZqgE5Tk%2FDHEDHwgbRWtMAfGco6cfR%2BOZ&wx_header=0)][[paper](https://arxiv.org/abs/1909.13719)][[code](https://github.com/tensorflow/tpu/blob/master/models/official/efficientnet/autoaugment.py)]
+
+## Datasets
+
+Please refer to [this page](src/Datasets.md).
+
+## Papers
+
+Considering the increasing number of papers in this field, we roughly summarize some articles and put them into the following categories (they are still listed in this document):
+
+### arXiv papers
+Note that all unpublished arXiv papers are not included in [the leaderboard of performance](#performance).
+
+- Segmentation-Based Deep-Learning Approach for Surface-Defect (SCI)[[paper](https://arxiv.org/abs/1903.08536v3)][[code](https://arxiv.org/abs/1903.08536v3)]
+
+
+
+
+
+
+<details>
+<summary>Earlier ArXiv Papers</summary>
+
+</details>
+
+
+### 2020
+
+- Multi-view learning for subsurface defect detection in composite products_ a challenge on thermographic data analysis (IEEE-TII) 
+- An Efficient Convolutional Neural Network Model Based on Object-Level Attention Mechanism for Casting Defect Detection on Radiography Images (IEEE-TIE)  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8948332)]
+- A novel algorithm for defect extraction and classification of mobile phone screen based on machine vision (Inf Fusion)
+- A Deep Learning-Based Surface Defect Inspection System Using Multiscale and Channel-Compressed Features (IEEE-TIM)
+
+
+
+### 2017
+
+
+
+## Leaderboard
+The section is being continually updated. Note that some values have superscript, which indicates their source. 
+
+
